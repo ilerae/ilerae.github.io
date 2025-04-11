@@ -30,7 +30,7 @@
 }
 .back{
     padding: 15px;
-    margin-left: 80px;
+    margin-left: 8%;
 }
 .back i{
     font-size: 15px;
@@ -48,7 +48,7 @@
 .tabs{
     overflow: hidden;
     border: 2px solid #302B27;
-    margin: 0px 100px 0px;
+    margin: 0 10% 0;
 }
 .tabs button{
     background-color: inherit;
@@ -74,7 +74,7 @@
 }
 .tabcontent{
     display: none;
-    margin: 0px 100px 50px;
+    margin: 0px 10% 25%;
     border: 2px solid #302B27;
     border-top: none;
 }
@@ -91,7 +91,7 @@
 }
 .tabcontent.active{
     display: block;
-    margin: 0px 100px 50px;
+    margin: 0px 10% 25%;
     border: 2px solid #302B27;
     border-top: none;
 }
