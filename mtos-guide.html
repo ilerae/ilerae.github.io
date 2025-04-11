@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Croco's Ultimate Guide for Mastering Master Content</title>
+    <link rel="stylesheet" href="guide-page.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="top">
+        <a href="index.html">Home</a>
+        <a href="about-page.html">About</a>
+    </div>
+
+    <div class="mtos-title">
+            <h1>Temple of the Spider (Master)</h1>
+    </div>
+
+    <div class="back">
+        <i class='bx bxs-chevron-left'></i>
+        <a href="index.html">Back</a>
+    </div>
+    
+    <div class="tabs">
+        <button class="tablinks active" onclick="Roles(event, 'General')" id="defaultOpen">General Mechanics</button>
+        <button class="tablinks" onclick="Roles(event,'DPS')">DPS</button>
+        <button class="tablinks" onclick="Roles(event,'Tank')">Tank</button>
+        <button class="tablinks" onclick="Roles(event,'Healer')">Healer</button>
+    </div>
+    
+    <div id="General" class="tabcontent active">
+        <h2>Halbryn Darkstalker</h2>
+        <div class="mechanics">
+            <p>You have to be aware of: <b>Spiders</b>, <b>Barrels</b>, <b>Darkstalker Clones</b>, and <b>Traps</b>.</p>
+            <p id="subtitle"><b>Spiders:</b></p>
+            <p id="subbody">Spiders will descend from the ceiling with inactive barrels. Once they have reached the floor, they will lunge and spit webs that can slow down movement speed.</p>
+
+            <p id="subtitle"><b>Barrels:</b></p>
+            <p id="subbody">Over time, barrels will accumulate within the arena. When you are targeted (indicated by a red area underneath your character), <span style="color: dodgerblue;">avoid detonating it near barrels and teammates</span>. Run to an empty space or a nearby wall. If you fail to do so, the barrels will explode and trigger a chain explosive reaction with other barrels. <span style="color: crimson;">Detonated barrels will increase Choking Gas that gives a permanent DoT until the end of the battle</span>. The higher the stack, the more damage you will receive. Usually, 7 stacks and above will result in a team wipe.</p>
+            <p id="subbody">Occasionally, the boss will put a timer on one of the barrels. <span style="color: dodgerblue;">You have to hit and destroy the barrel before the timer runs out</span>. If you fail to do so, the barrel will explode.</p>
+            
+            <p id="subtitle"><b>Darkstalker Clones:</b></p>
+            <p id="subbody">The boss can spawn 1 or 3 clones. The boss will split into 3 clones after rolling. Avoid doing Arti calls during this phase and focus on defeating all of the clones first. Unlike the real boss, the clones do not have a black background behind their names. <span style="color: dodgerblue;">All of the clones can be stunned, so use your CC skills wisely</span>.</p>
+
+            <p id="subtitle"><b>Traps:</b></p>
+            <p id="subbody">Traps will be placed down by the boss, do not step on them. If you do, you will be stunned for a long time and receive damage.</p>
+        </div>
+        
+        <h2>Da'Zora Mizzrym</h2>
+        <div class="mechanics">
+            <p>You have to be aware of: <b>Tentacle Waves (Yochlol)</b>, <b>Ghosts</b>, <b>Pair AoE</b>, <b>Rail Gun</b>, and <b>Ritual Strength</b></b>. Additionally, be mindful of the Ritual Strength. It will increase the damage output of the boss' scream.</p>
+            <p id="subtitle"><b>Tentacle Waves:</b></p>
+            <p id="subbody">At certain HP thresholds, the boss will run away and stand on the altar. During this phase, she is untargetable. <span style="color: dodgerblue;">She will summon a wave of tentacles that you have to kill on time</span>. <span style="color: crimson;">Failing will increase the Ritual Strength</span>.</p>
+
+            <p id="subtitle"><b>Ghosts:</b></p>
+            <p id="subbody">A pair of ghost-like enemies will spawn around the arena. Heal them to full HP in time to eliminate them. If their HP is red, you have to break their barrier first in order to heal them. When their HP is black, it indicates that you can now heal them. Failing will increase Ritual Strength.</p>
+
+            <p id="subtitle"><b>Pair AoE:</b></p>
+            <p id="subbody">The boss will randomly target 2 players. Both will be targeted by a large red area underneath their character. This area will damage everyone within it except for the targeted player. If you are targeted, avoid overlapping with the other red area. The best strategy is for 1 player to go to the left side of the arena while the other goes to the right.</p>
+            <p id="subbody">Sometimes, a random player will be strangled (CC) and become immobile. Move around and adjust according to their position to ensure the red areas do not hit anyone.</p>
+
+            <p id="subtitle"><b>Rail Gun:</b></p>
+            <p id="subbody">When you see a straight red line, avoid it at all costs. This attack will target anyone with the highest threat and can penetrate.</p>
+
+            <p id="subtitle"><b>Ritual Strength:</b></p>
+            <p id="subbody">After the boss says "I will not succumb!", etc., there will be AoE damage from the altar in the form of screams. The higher the Ritual Strength, the higher the screams will damage you.</p>
+        </div>
+
+        <h2>Syndryth</h2>
+    </div>
+    
+    <div id="DPS" class="tabcontent">
+        <h2>Halbryn Darkstalker</h2>
+        <h2>Da'Zora Mizzrym</h2>
+        <div class="mechanics">
+        </div>
+        <h2>Syndryth</h2>
+    </div>
+
+    <div id="Tank" class="tabcontent">
+        <h2>Halbryn Darkstalker</h2>
+        <div class="mechanics">
+            <p><b>Positioning</b> is key as a Tank. Lure the boss and all the enemies into an open space, where you and your teammates will have a low chance of detonating any barrels.</p>
+            <p id="subtitle"><b>Tank Buster:</b></p>
+            <p id="subbody">The boss will jump and stab you. It is necessary that you block this attack, especially newer Tanks, as it can one-shot you.</p>
+            <p id="subbody">Sometimes, when all clones and spiders are dead, there will be a moment of peace where the boss cannot be seen. Get ready to block because there will be a Tank Buster immediately after this.</p>
+
+            <p id="subtitle"><b>Spiders:</b></p>
+            <p id="subbody">It is not necessary to aggro all of them since they are spread all across the arena. But, a good Tank will try to hold all of them for the sake of your teammates. <span style="color: dodgerblue;">Try to aggro as many spiders as possible</span>.</p>
+
+            <p id="subtitle"><b>Barrels:</b></p>
+            <p id="subbody">When a barrel is ticking, <span style="color: crimson;">aggro all the enemies away</span> from it so that your DPS teammates can attack the barrels with ease. Only help to destroy the barrel if there are no enemies around.</p>
+
+            <p id="subtitle"><b>Darkstalker Clones:</b></p>
+            <p id="subbody">When the boss rolls over, be prepare to use your AoE skills to aggro all clones. Missing aggro on any one of the clones can be dangerous for your teammates.</p>
+            <p id="subbody">The boss might also summon a single clone. Aggro this clone as well.</p>
+        </div>
+
+        <h2>Da'Zora Mizzrym</h2>
+        <div class="mechanics">
+            <p>Stay far away from the altar and and help with defeating the Tentacles. You have to be far from the altar so that the boss can see you. If she doesn't see you, she will start attacking random players.</p>
+            <p>Recommended Overload(s):</p>
+            <div class="bullet-point">
+                <ul>
+                    <li>Drow Ward: Reduces boss damage to you.</li>
+                </ul>
+            </div>
+            <p id="subtitle"><b>Tank Buster:</b></p>
+            <p id="subbody">There will be straight red line indicator, this is when the boss will attack with a Tank Buster. You have to block this attack. It will penetrate your character so make sure that no one is behind you, or they will be one-shotted.</p>
+
+            <p id="subtitle"><b>Tentacle Waves:</b></p>
+            <p id="subbody">Before the wave starts, it is important that you still have aggro on the boss. You need to make sure all of your DPS' aggro meter is yellow or below. If their aggro becomes red before the wave starts, you will never get it back unless the DPS dies or the wave ends.</p>
+
+            <p id="subtitle"><b>Pair AoE:</b></p>
+            <p id="subbody">When you are targeted by one of the Pair AoE, go to the spot on the left side.</p>
+        </div>
+
+        <h2>Syndryth</h2>
+    </div>
+
+    <div id="Healer" class="tabcontent">
+        <h2>Halbryn Darkstalker</h2>
+        <p>As a Healer, your job is to make sure your teammates' HP are full, especially during <b>Targeted Explosions</b>, <b>Tank Buster</b>, and <b>Traps</b>.</p>
+        <div class="mechanics">
+            <p id="subtitle"><b>Targeted Explosions:</b></p>
+            <p id="subbody">Your teammates will be targeted by an explosion (indicated by a red area underneath their character). <span style="color: dodgerblue;">Time your heals before and after the explosion</span>. Your DPS teammates will not survive if their health is not full during the targeted explosion.</p>
+
+            <p id="subtitle"><b>Tank Buster:</b></p>
+            <p id="subbody">Be aware of when the boss leaps onto your Tank. If your Tank is caught off guard, it is your responsibility to keep their health in check. </p>
+
+            <p id="subtitle"><b>Traps:</b></p>
+            <p id="subbody">Traps can stun and inflict high damage to your teammates. <span style="color: crimson;">They will not be able to use any potions</span>. Focus on healing them as long as they are stunned.</p>
+        </div>
+
+        <h2>Da'Zora Mizzrym</h2>
+        <div class="mechanics">
+            <p>As usual, your job is to heal your teammates. You should position yourself in the middle of the arena so that you can heal more effectively.</p>
+
+            <p id="subtitle"><b>Syndryth's Willpower:</b></p>
+            <p id="subbody"> The boss will spawn ghost-like enemies with barriers that need to be broken. Once they are free, they will become Syndryth's Willpower and have a black health bar,<span style="color: dodgerblue;"> you will have to heal them</span>. If you don't heal them in time, <span style="color: crimson;">they will permanently increase the Ritual Strength</span>.</p>
+
+            <p id="subtitle"><b>Pair AoE:</b></p>
+            <p id="subbody">When you are targeted by one of the Pair AoE, <span style="color: dodgerblue;">either position yourself near the gate or the altar</span>.</p>
+
+            <p id="subtitle"><b>Screams:</b></p>
+            <p id="subbody">Note that before the boss screams and damages everyone, she will say "I will not succumb!", etc. This is a signal for you to heal your teammates before she unleashes it.</p>
+        </div>
+
+        <h2>Syndryth</h2>
+        <p>There will be a big Spider Ghost that spawns outside the arena. It can shoot out either a blue or red line from its eyeballs. <span style="color: dodgerblue;">You have to block the blue line to prevent it from healing the boss</span>. Be in between the Spider Ghost and the boss and make sure you are far enough from the boss to successfully block it.</p>
+        <p>Two big Spider Ghost can spawn at the same time. Again, you will block the blue line while your Tank will block the red line.</p>
+    </div>
+
+    <script src="tab-function.js"></script>
+</body>
+
+</html>

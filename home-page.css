@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*top*/
+.top{
+    padding: 5px;
+    color: #302B27;
+}
+.top a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #302B27;
+    margin: 10px;
+}
+.top a:hover{
+    color: burlywood;
+}
+
+/*title*/
+.title{
+    background-color: #302B27;
+}
+.title h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-top: 20px;
+    color: #F5FBEF;
+}
+.title h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F5FBEF;
+}
+
+/*dungeons*/
+.dungeons{
+    position: relative;
+    right: 50%;
+    left: 50%;
+    width: 700px;
+    height: 600px;
+    margin-left: -350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*moondancer*/
+.moondancer{
+    background-image: url('moondancer.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.mdom{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mdom a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mdom a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mdom a:hover{
+    text-decoration: overline;
+}
+
+/*demonweb pits*/
+.demonweb{
+    background-image: url('demonweb.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px transparent;
+    border-radius: 20px;
+}
+.mdwp{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mdwp a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mdwp a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mdwp a:hover{
+    text-decoration: overline;
+}
+
+/*lair of mad dragon*/
+.dragon{
+    background-image: url('dragon.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px transparent;
+    border-radius: 20px;
+}
+.mlmd{
+    color: #F5FBEF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mlmd a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mlmd a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mlmd a:hover{
+    text-decoration: overline;
+}
+
+/*temple of spider*/
+.spider{
+    background-image: url('spider.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px transparent;
+    border-radius: 20px;
+}
+.mtos{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mtos a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtos a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtos a:hover{
+    text-decoration: overline;
+}
+
+/*dread sanctum*/
+.dread{
+    background-image: url('dread.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px transparent;
+    border-radius: 20px;
+}
+.mtds{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mtds a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtds a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtds a:hover{
+    text-decoration: overline;
+}
+
+/*citadel*/
+.citadel{
+    background-image: url('citadel.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px transparent;
+    border-radius: 20px;
+}
+.mtic{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #222823;
+    border: 2px solid #F5FBEF;
+    border-radius: 20px;
+}
+.mtic a{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtic a:visited{
+    color: #F5FBEF;
+    text-decoration: none;
+}
+.mtic a:hover{
+    text-decoration: overline;
+}

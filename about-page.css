@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*top*/
+.top{
+    padding: 5px;
+    color: #302B27;
+}
+.top a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #302B27;
+    margin: 10px;
+}
+.top a:hover{
+    color: burlywood;
+}
