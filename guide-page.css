@@ -60,6 +60,7 @@
     transition: 0.3s;
     font-size: 18px;
     text-align: center;
+    color: #302B27;
 }
 .tabs button:hover{
     background-color: #302B27;
