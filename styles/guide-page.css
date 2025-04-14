@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*top*/
+.top{
+    padding: 5px;
+    color: #302B27;
+}
+.top a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #302B27;
+    margin: 10px;
+}
+.top a:hover{
+    color: burlywood;
+}
+
+/*title*/
+.mtos-title h1{
+    background-color: #302B27;
+    color: #F5FBEF;
+    text-align: center;
+    padding: 20px;
+}
+.back{
+    padding: 15px;
+    margin-left: 8%;
+}
+.back i{
+    font-size: 15px;
+}
+.back a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #302B27;
+}
+.back a:hover{
+    color: burlywood;
+}
+
+/*tabs*/
+.tabs{
+    overflow: hidden;
+    border: 2px solid #302B27;
+    margin: 0 10% 0;
+}
+.tabs button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 18px;
+    text-align: center;
+    color: #302B27;
+}
+.tabs button:hover{
+    background-color: #302B27;
+    color: #F5FBEF;
+}
+.tabs button.active:hover{
+    background-color: #302B27;
+}
+.tabs button.active{
+    background-color: #302B27;
+    color: #F5FBEF;
+}
+.tabcontent{
+    display: none;
+    margin: 0px 10% 25%;
+    border: 2px solid #302B27;
+    border-top: none;
+}
+.tabcontent h2{
+    padding: 20px 15px 10px;
+    font-size: 30px;
+    color: #302B27;
+}
+.tabcontent p{
+    padding:0px 15px 10px;
+    text-align: justify;
+    font-size: 22px;
+    color: #302B27;
+}
+.tabcontent.active{
+    display: block;
+    margin: 0px 10% 25%;
+    border: 2px solid #302B27;
+    border-top: none;
+}
+.tabcontent.active h2{
+    padding: 20px 15px 10px;
+    font-size: 30px;
+    color: #302B27;
+}
+.tabcontent.active p{
+    padding:0px 15px 10px;
+    text-align: justify;
+    font-size: 22px;
+    color: #302B27;
+}
+.mechanics{
+    border-bottom: 2px solid #302B27;
+}
+.mechanics #subtitle{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.mechanics #subbody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bullet-point{
+    padding:0px 15px 10px;
+    margin-left: 16px;
+    text-align: justify;
+    font-size: 22px;
+    color: #302B27;
+}
